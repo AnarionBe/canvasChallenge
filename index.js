@@ -88,6 +88,7 @@
         drawSky();
         drawGround();
         drawPlayer();
+        document.getElementById("audio").play();
     };
 
     const update = () => {
