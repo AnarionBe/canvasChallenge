@@ -66,8 +66,8 @@
             ctx.clearRect(0, 0, WIDTH, HEIGHT);
             drawSky();
             ctx.font = "20px Arial";
-            ctx.fillText("You Lost !", 90, HEIGHT / 5);
-            ctx.fillText(`Score: ${score}`, 100, HEIGHT / 5 - 50);
+            ctx.fillText("Game Over !", 90, HEIGHT / 5);
+            ctx.fillText(`Score: ${score}`, 100, HEIGHT / 5 + 25);
             return;
         }
         ctx.drawImage(ground, width, HEIGHT - 2 * ground.height);
